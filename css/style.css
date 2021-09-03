@@ -20,10 +20,25 @@ main {
 
 }
 
-.product1 img {
+
+.product1 .img1 {
     width: 384px;
     height: 554.4px;
+    display: inline-block;
+}
 
+.product1 .img2 {
+    position: absolute;
+    width: 384px;
+    height: 554.4px;
+    top:0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.product1:hover .img2 {
+    display: block;
 }
 
 .text1 p:first-child {
