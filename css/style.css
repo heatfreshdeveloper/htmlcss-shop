@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-size: 15px;
+    font-family:  'Besley', serif;
+}
+
+.products {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.product1 {
+    position: relative;
+    display: inline-block;
+
+}
+
+.product1 img {
+    width: 384px;
+    height: 554.4px;
+
+}
+
+.text1 p:first-child {
+    background-color: rgb(238, 11, 79);
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    bottom: 100px;
+    padding: 5px;
+}
+
+.text1 :nth-child(2) {
+    background-color: rgb(8, 151, 115);
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    bottom: 100px;
+    left: 55px;
+    padding: 5px;
+}
+
+.text1 :nth-child(3) {
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 19px;
+    padding: 5px 15px;
+    font-size: 200%;
+}
+
+.text1 :nth-child(3):hover {
+    background-color: black;
+    color: white;
+}
+
+.text1 p:last-child {
+    color: red;
+    font-weight: bold;
+}
+
+.text1 span {
+    color: black;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
