@@ -20,6 +20,35 @@ main {
 
 }
 
+.product2 {
+    position: relative;
+    display: inline-block;
+
+}
+
+.product3 {
+    position: relative;
+    display: inline-block;
+
+}
+
+.product4 {
+    position: relative;
+    display: inline-block;
+
+}
+
+.product5 {
+    position: relative;
+    display: inline-block;
+
+}
+
+.product6 {
+    position: relative;
+    display: inline-block;
+
+}
 
 .product1 .img1 {
     width: 384px;
@@ -41,6 +70,106 @@ main {
     display: block;
 }
 
+.product2 .img3 {
+    width: 384px;
+    height: 554.4px;
+    display: inline-block;
+}
+
+.product2 .img4 {
+    position: absolute;
+    width: 384px;
+    height: 554.4px;
+    top:0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.product2:hover .img4 {
+    display: block;
+}
+
+.product3 .img5 {
+    width: 384px;
+    height: 554.4px;
+    display: inline-block;
+}
+
+.product3 .img6 {
+    position: absolute;
+    width: 384px;
+    height: 554.4px;
+    top:0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.product3:hover .img6 {
+    display: block;
+}
+
+.product4 .img7 {
+    width: 384px;
+    height: 554.4px;
+    display: inline-block;
+}
+
+.product4 .img8 {
+    position: absolute;
+    width: 384px;
+    height: 554.4px;
+    top:0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.product4:hover .img8 {
+    display: block;
+}
+
+.product5 .img9 {
+    width: 384px;
+    height: 554.4px;
+    display: inline-block;
+}
+
+.product5 .img10 {
+    position: absolute;
+    width: 384px;
+    height: 554.4px;
+    top:0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.product5:hover .img10 {
+    display: block;
+}
+
+.product6 .img11 {
+    width: 384px;
+    height: 554.4px;
+    display: inline-block;
+}
+
+.product6 .img12 {
+    position: absolute;
+    width: 384px;
+    height: 554.4px;
+    top:0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.product6:hover .img12 {
+    display: block;
+}
+
 .text1 p:first-child {
     background-color: rgb(238, 11, 79);
     font-weight: bold;
@@ -49,6 +178,7 @@ main {
     position: absolute;
     bottom: 100px;
     padding: 5px;
+    z-index: 1;
 }
 
 .text1 :nth-child(2) {
@@ -60,6 +190,7 @@ main {
     bottom: 100px;
     left: 55px;
     padding: 5px;
+    z-index: 1;
 }
 
 .text1 :nth-child(3) {
@@ -70,6 +201,7 @@ main {
     top: 19px;
     padding: 5px 15px;
     font-size: 200%;
+    z-index: 1;
 }
 
 .text1 :nth-child(3):hover {
@@ -86,4 +218,178 @@ main {
     color: black;
     text-decoration: line-through;
     font-weight: lighter;
+}
+
+.text2 p:first-child {
+    background-color: rgb(238, 11, 79);
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    bottom: 100px;
+    padding: 5px;
+    z-index: 1;
+}
+
+.text2 :nth-child(2) {
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 19px;
+    padding: 5px 15px;
+    font-size: 200%;
+    z-index: 1;
+}
+
+.text2 :nth-child(2):hover {
+    background-color: black;
+    color: white;
+}
+
+.text2 p:last-child {
+    color: red;
+    font-weight: bold;
+}
+
+.text2 span {
+    color: black;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.text3 p:first-child {
+    background-color: rgb(238, 11, 79);
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    bottom: 100px;
+    padding: 5px;
+    z-index: 1;
+}
+
+.text3 :nth-child(2) {
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 19px;
+    padding: 5px 15px;
+    font-size: 200%;
+    z-index: 1;
+}
+
+.text3 :nth-child(2):hover {
+    background-color: black;
+    color: white;
+}
+
+.text3 p:last-child {
+    color: red;
+    font-weight: bold;
+}
+
+.text4 p:first-child {
+    background-color: rgb(238, 11, 79);
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    bottom: 100px;
+    padding: 5px;
+    z-index: 1;
+}
+
+.text4 :nth-child(2) {
+    background-color: rgb(8, 151, 115);
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    bottom: 100px;
+    left: 55px;
+    padding: 5px;
+    z-index: 1;
+}
+
+.text4 :nth-child(3) {
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 19px;
+    padding: 5px 15px;
+    font-size: 200%;
+    z-index: 1;
+}
+
+.text4 :nth-child(3):hover {
+    background-color: black;
+    color: white;
+}
+
+
+.text4 p:last-child {
+    color: red;
+    font-weight: bold;
+}
+
+.text4 span {
+    color: black;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.text5 p:first-child {
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 19px;
+    padding: 5px 15px;
+    font-size: 200%;
+    z-index: 1;
+}
+
+.text5 p:first-child:hover {
+    background-color: black;
+    color: white;
+}
+
+.text5 p:last-child {
+    color: red;
+    font-weight: bold;
+}
+
+.text6 p:first-child {
+    background-color: rgb(8, 151, 115);
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    bottom: 100px;
+    padding: 5px;
+    z-index: 1;
+}
+
+.text6 :nth-child(2) {
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 19px;
+    padding: 5px 15px;
+    font-size: 200%;
+    z-index: 1;
+}
+
+.text6 :nth-child(2):hover {
+    background-color: black;
+    color: white;
+}
+
+.text6 p:last-child {
+    color: red;
+    font-weight: bold;
 }
